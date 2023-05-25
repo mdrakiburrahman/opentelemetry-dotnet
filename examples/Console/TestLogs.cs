@@ -94,6 +94,7 @@ namespace Examples.Console
             using (logger.BeginScope("{storeType}", "Physical"))
             {
                 logger.LogInformation("Hello from {name} {price}.", "tomato", 2.99);
+                logger.LogInformation("Hello from {name} {price}.", "potato", 69.69);
             }
 
             return null;
